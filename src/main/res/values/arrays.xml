@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="activity_main_tab_name">
+        <item>成果展示</item>
+        <item>开发沟通</item>
+        <item>我的项目</item>
+    </string-array>
+
+    <string-array name="activity_main_tab_title_name">
+        <item>
+            项目成果展示
+        </item>
+        <item>
+            项目开发沟通
+        </item>
+        <item>
+            我的发布项目
+        </item>
+    </string-array>
+
+    <string-array name="activity_main_my_project_tab_name">
+        <item>展示项目</item>
+        <item>沟通项目</item>
+    </string-array>
+
+    <string-array name="activity_my_project_tab_title_name">
+        <item>
+            我的展示项目
+        </item>
+        <item>
+            我的沟通项目
+        </item>
+    </string-array>
+
+    <string-array name="activity_select_photo_tab_name">
+        <item>照片</item>
+        <item>图库</item>
+    </string-array>
+
+</resources>

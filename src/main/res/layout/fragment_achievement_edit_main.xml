@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_tv_project_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/tv_text_project_title"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/id_et_project_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/et_hint_project_title"
+                android:padding="10dp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_tv_project_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/tv_text_project_summary"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/id_et_project_summary"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="start|top"
+                android:hint="@string/et_hint_project_summary"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:scrollHorizontally="false"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_tv_project_authorize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/tv_text_project_authorize"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:id="@+id/id_rg_authorize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/id_rb_all_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:padding="10dp"
+                    android:text="@string/rb_text_all_user" />
+
+                <RadioButton
+                    android:id="@+id/id_rb_specific_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/rb_text_specific_user" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/id_et_authorize"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="start|top"
+            android:hint="@string/et_hint_authorize"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:scrollHorizontally="false"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/id_tv_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/tv_text_details" />
+
+        <include
+            layout="@layout/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/id_btn_submit"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_text_submit" />
+
+            <Button
+                android:id="@+id/id_btn_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_text_cancel" />
+
+        </LinearLayout>-->
+    </LinearLayout>
+
+</ScrollView>
+

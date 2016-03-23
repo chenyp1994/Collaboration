@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/id_cb_select"
+        style="@style/SelectCheckBoxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:checked="false"
+        android:focusable="false"
+        android:minHeight="32dp"
+        android:minWidth="32dp" />
+
+    <View
+        android:id="@+id/id_v_click"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

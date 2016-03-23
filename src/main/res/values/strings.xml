@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Collaboration</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">搜索</string>
+    <string name="action_add">添加</string>
+    <string name="action_delete">删除</string>
+    <string name="action_file_list">文件列表</string>
+
+    <!-- activity_main -->
+    <string name="activity_photo_tbr_title">选择图片</string>
+    <string name="all_image">所有图片</string>
+    <string name="select_max_count">你最多可以选择%1$d张图片</string>
+    <string name="tv_text_publisher">发布人</string>
+    <string name="iv_text_photo">头像</string>
+    <string name="tv_text_title">标题</string>
+    <string name="tv_text_upload_date">上传时间</string>
+    <string name="tv_text_summary">简介</string>
+    <string name="tv_text_read_count">浏览次数</string>
+    <string name="tv_text_user">用户 : </string>
+    <string name="tv_text_user_password">密码 : </string>
+    <string name="et_hint_input_user">用户ID/邮箱/手机号</string>
+    <string name="et_hint_input_user_pass_word">输入密码</string>
+    <string name="et_hint_input_confirm_user_pass_word">输入密码</string>
+    <string name="btn_text_login">登陆</string>
+    <string name="btn_text_cancel">取消</string>
+    <string name="tv_text_tips_login">需登陆后才能查看</string>
+    <string name="action_edit">修改</string>
+
+    <string name="tv_text_project_title">项目名称 : </string>
+    <string name="et_hint_project_title">起个项目名称吧!</string>
+    <string name="tv_text_project_summary">项目简介 : </string>
+    <string name="et_hint_project_summary">描述一下项目简介吧!</string>
+    <string name="tv_text_project_authorize">项目授权 : </string>
+    <string name="rb_text_all_user">所有用户</string>
+    <string name="rb_text_specific_user">指定用户</string>
+    <string name="et_hint_authorize">授权用户id,多个用\',\'隔开id号,格式为:id号,…</string>
+    <string name="btn_text_submit">提交</string>
+    <string name="tv_text_detail_title">详细信息 :</string>
+    <string name="tv_text_project_detail">项目详细信息 :</string>
+    <string name="et_hint_project_detail">详细的描述一下啦!</string>
+    <string name="tv_text_project_detail_image">图片选择 : (最多选择三张)</string>
+    <string name="tv_text_camera">拍摄照片</string>
+
+    <string name="tv_text_communication_name">沟通名称 :</string>
+    <string name="et_hint_communication_name">起个沟通名称吧!</string>
+    <string name="tv_text_communication_description">沟通描述 :</string>
+    <string name="et_hint_communication_description">描述一下沟通的内容吧!</string>
+    <string name="tv_text_communication_authorize">沟通授权 : </string>
+
+    <string name="tv_text_communication_topic_parent_title">父主题 :</string>
+    <string name="et_text_communication_topic_parent_title">叫我父主题</string>
+    <string name="tv_text_communication_topic_child_title">主题名称 :</string>
+    <string name="et_hint_communication_topic_child_title">起个主题名称啦!</string>
+    <string name="tv_text_communication_topic_child_summary">主题内容 :</string>
+    <string name="et_hint_communication_topic_child_summary">我们要讨论什么主题来着?输入一点啦!</string>
+    <string name="action_about">关于</string>
+    <string name="action_logout">登出</string>
+    <string name="action_login">登陆</string>
+    <string name="tv_text_topic_title">主题名</string>
+    <string name="tv_text_topics">主题列表 : </string>
+    <string name="tv_text_details">成果详细信息列 :</string>
+
+    <string name="text_summary_format">        %1$s</string>
+    <string name="tv_text_detail_text">详细信息文字描述</string>
+    <string name="tv_text_gallery_name">相册名</string>
+    <string name="tv_text_gallery_photo_count_format">%1$d张</string>
+    <string name="action_done">完成</string>
+    <string name="done_with_count_format">完成(%1$d/%2$d)</string>
+    <string name="text_browse_photo_format">%1$d/%2$d</string>
+    <string name="btn_text_yes">确定</string>
+    <string name="undo">撤消</string>
+    <string name="deleted_a_photo">删除了一张图片</string>
+    <string name="confirm_to_delete">确认删除？</string>
+    <string name="tv_text_child_topics">子主题列表</string>
+    <string name="action_submit">提交</string>
+    <string name="action_select">选择</string>
+    <string name="tv_text_name">名称 : </string>
+    <string name="et_hint_name">输入你的名称</string>
+    <string name="tv_text_confirm_password">确定密码 : </string>
+    <string name="et_hint_confirm_password">再次输入密码</string>
+    <string name="tv_text_phone">手机号码 : </string>
+    <string name="et_hint_phone">输入手机号码</string>
+    <string name="tv_text_download_count">下载次数</string>
+    <string name="btn_text_download">下载</string>
+    <string name="action_register">注册</string>
+    <string name="btn_text_register">注册</string>
+    <string name="tv_text_email">邮箱 : </string>
+    <string name="et_hint_email">输入邮箱</string>
+    <string name="tv_text_qq">QQ :</string>
+    <string name="et_hint_qq">输入QQ号码</string>
+    <string name="tv_text_weChat">微信号 :</string>
+    <string name="et_hint_weChat">输入微信号</string>
+
+    <integer name="activity_photo_selected_max_count">9</integer>
+
+</resources>

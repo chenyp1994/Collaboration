@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="128dp">
+
+    <!--<ImageView
+        android:id="@+id/id_iv_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="相机icon"
+        android:src="@android:drawable/ic_menu_camera" />-->
+
+    <TextView
+        android:id="@+id/id_tv_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@android:drawable/ic_menu_camera"
+        android:text="@string/tv_text_camera" />
+
+</RelativeLayout>
